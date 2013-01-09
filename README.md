@@ -1,4 +1,4 @@
 treat
 =====
 
-Smart input type validation for JavaScript
+Smart input type validation for node.js

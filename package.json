@@ -1,0 +1,31 @@
+{
+    "name": "treat",
+    "description": "Smart input type validation for node.js",
+    "version": "0.1.0",
+    "homepage": "http://github.com/peerigon/treat",
+    "repository": "git://github.com/peerigon/treat.git",
+    "author": "peerigon <developers@peerigon.com>",
+    "main": "./lib/treat.js",
+    "keywords": [
+        "type",
+        "check",
+        "type-check",
+        "validation",
+        "param",
+        "TypeError",
+        "casting"
+    ],
+    "dependencies": {
+        "value": "0.x"
+    },
+    "devDependencies": {
+        "expect.js": "0.x",
+        "mocha": "1.x"
+    },
+    "engines": {
+        "node": "0.x"
+    },
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha -R spec"
+    }
+}
